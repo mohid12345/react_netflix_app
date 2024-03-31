@@ -1,0 +1,1 @@
+https://api.themoviedb.org/3/trending/all/week?api_key=3c1427203cd55e5475382d8561efcd9d&language=en-US

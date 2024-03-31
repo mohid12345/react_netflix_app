@@ -6,13 +6,14 @@ import RowPost from './Components/RowPost/RowPost';
 import axios from "axios"
 
 
-function App() {  
+function App() {
   return (
     <>
     <div className='App'>
       <NavBar/>
       <Banner/>
-      <RowPost/>
+      <RowPost title='Netflix Orginals'/>
+      <RowPost title='Action' isSmall='false'/>
 
       <button  onClick={() =>{
         axios.get()

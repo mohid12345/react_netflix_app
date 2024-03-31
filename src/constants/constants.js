@@ -1,2 +1,5 @@
-export const baseUrl = 'https://api.themoviedb.org/3'
-export const API_KEY = 'd03799692be1c26faf0ade18a4205f9f'
+export const baseUrl = 'https://api.themoviedb.org/3/'
+// export const API_KEY = 'd03799692be1c26faf0ade18a4205f9f'
+export const API_KEY = '3c1427203cd55e5475382d8561efcd9d'
+// export const API_KEY = 'eaa04790f9ae7a6b3db90299568119a9'
+export const imageUrl = 'https://image.tmdb.org/t/p/original'
