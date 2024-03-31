@@ -3,7 +3,7 @@ import NavBar from './Components/NavBar/NavBar';
 import './App.css'
 import Banner from './Components/Banner/Banner';
 import RowPost from './Components/RowPost/RowPost';
-import axios from "axios"
+import {orginals,actions} from './urls'
 
 
 function App() {
@@ -12,12 +12,14 @@ function App() {
     <div className='App'>
       <NavBar/>
       <Banner/>
-      <RowPost title='Netflix Orginals'/>
-      <RowPost title='Action' isSmall='false'/>
+      <RowPost url={orginals} title='Netflix Orginals'/>
+      <RowPost url={actions} title='Action' isSmall/>
+      <RowPost url={actions} title='Action' isSmall/>
 
-      <button  onClick={() =>{
+
+      {/* <button  onClick={() =>{
         axios.get()
-      } }>Click me</button>
+      } }>Click me</button> */}
     </div>
     </>
   );

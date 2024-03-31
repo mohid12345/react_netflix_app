@@ -10,7 +10,7 @@ function Banner() {
     axios.get(`trending/all/week?api_key=${API_KEY}&language=en-US`).then((response) => {
       console.log(response.data.results[1])
       setMovie(response.data.results[1])
-      console.log(movie);
+
     })
      }, [])//only one time we need to run this, so empty array is fine
   return (
